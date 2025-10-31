@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.TestRunner" time="122.738" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/test-classes:/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/classes:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/playwright/1.46.0/playwright-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/jayasuriyans/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver/1.46.0/driver-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver-bundle/1.46.0/driver-bundle-1.46.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/jayasuriyans/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/jayasuriyans/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayasuriyans/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.27.0/allure-cucumber7-jvm-2.27.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251031143722276_3.jar /Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire 2025-10-31T14-37-22_230-jvmRun1 surefire-20251031143722276_1tmp surefire_0-20251031143722276_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/test-classes:/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/classes:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/playwright/1.46.0/playwright-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/jayasuriyans/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver/1.46.0/driver-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver-bundle/1.46.0/driver-bundle-1.46.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/jayasuriyans/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/jayasuriyans/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayasuriyans/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.27.0/allure-cucumber7-jvm-2.27.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jayasuriyans"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251031143722276_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+0"/>
+    <property name="user.name" value="jayasuriyans"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jayasuriyans/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/dr/2yr90hw55qz9wk76tpx8rv7c0000gn/T/"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jayasuriyans/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.16+0"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="User creates and claims a receivable successfully" classname="Create and Claim Receivable" time="56.139">
+    <system-out><![CDATA[
+Scenario: User creates and claims a receivable successfully  # src/test/resources/features/CreateAndClaimReceivable.feature:3
+🚀 [HOOK] Launching Playwright before scenario...
+Found 2 Dashboard elements.
+ Dashboard visible at index 0
+  Given User is logged into the dashboard                    # com.test.CreateReceivablesteps.user_is_logged_into_the_dashboard()
+🔹 Starting Receivable Creation...
+🧾 Invoice Generated: 811701
+✅ Clicked CREATE RECEIVABLE successfully.
+✅ Receivable Created Toast: Created Invoice successfully!
+🔹 Starting Claim for invoice: 811701
+✅ Claim submitted for invoice: 811701
+🎉 Claim Success Toast: Reconcile successful!
+  When User creates and claims a receivable                  # com.test.CreateAndClaimReceivableSteps.user_creates_and_claims_a_receivable()
+✅ Full create and claim flow completed successfully!
+  Then Receivable should be created and claimed successfully # com.test.CreateAndClaimReceivableSteps.receivable_should_be_created_and_claimed_successfully()
+🧹 [HOOK] Closing Playwright after scenario...
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="User creates a new receivable successfully" classname="Create Receivable" time="47.994">
+    <system-out><![CDATA[
+Scenario: User creates a new receivable successfully # src/test/resources/features/CreateReceivable.feature:3
+🚀 [HOOK] Launching Playwright before scenario...
+Found 2 Dashboard elements.
+ Dashboard visible at index 0
+  Given User is logged into the dashboard            # com.test.CreateReceivablesteps.user_is_logged_into_the_dashboard()
+Invoice Generated: 811702
+🟡 Clicked Create Receivable main button
+✅ Clicked CREATE RECEIVABLE in popup successfully.
+Invoice number created successfully
+  When User creates a new receivable                 # com.test.CreateReceivablesteps.user_creates_a_new_receivable()
+🧾 Waiting for success toast...
+✅ Success toast visible: Receivable created successfully!
+  Then Receivable should be created successfully     # com.test.CreateReceivablesteps.receivable_should_be_created_successfully()
+🧹 [HOOK] Closing Playwright after scenario...
+]]></system-out>
+  </testcase>
+  <testcase name="Login to dashboard with valid OTP" classname="Dashboard login" time="18.293">
+    <system-out><![CDATA[
+Scenario: Login to dashboard with valid OTP # src/test/resources/features/DashboardLogin.feature:3
+🚀 [HOOK] Launching Playwright before scenario...
+  Given User is on login page               # com.test.DashboardLoginSteps.user_is_on_login_page()
+  When User enters email and submits OTP    # com.test.DashboardLoginSteps.user_enters_email_and_submits_otp()
+Found 2 Dashboard elements.
+ Dashboard visible at index 0
+  Then User should land on dashboard        # com.test.DashboardLoginSteps.user_should_land_on_dashboard()
+🧹 [HOOK] Closing Playwright after scenario...
+]]></system-out>
+  </testcase>
+</testsuite>
