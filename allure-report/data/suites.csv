@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","47990","User creates a new receivable successfully","","2025-10-31","passed","2025-10-31","","Create Receivable","User creates a new receivable successfully",""
+"","56072","User creates and claims a receivable successfully","","2025-10-31","passed","2025-10-31","","Create and Claim Receivable","User creates and claims a receivable successfully",""
+"","18281","Login to dashboard with valid OTP","","2025-10-31","passed","2025-10-31","","Dashboard login","Login to dashboard with valid OTP",""
