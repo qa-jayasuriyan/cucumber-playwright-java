@@ -1,3 +1,4 @@
+com/test/InvoiceCreationSteps.class
 com/test/DashboardLoginSteps.class
 com/pages/CreateAndClaimReceivablesPage.class
 com/test/CreateAndClaimReceivableSteps.class
@@ -8,3 +9,4 @@ com/hooks/Hooks.class
 com/test/CreateReceivablesteps.class
 com/utils/PlaywrightFactory.class
 com/pages/LoginPage.class
+com/pages/InvoiceCreationPage.class

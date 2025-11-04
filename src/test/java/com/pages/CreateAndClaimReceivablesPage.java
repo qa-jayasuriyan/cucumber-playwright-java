@@ -42,7 +42,7 @@ public class CreateAndClaimReceivablesPage {
 
         // Select Invoice Date
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Invoice Date *")).click();
-        page.getByTitle("-10-01").click();
+        page.getByTitle("-11-01").click();
 
         // Select Purpose Code
         page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Purpose Code question-circle *")).click();

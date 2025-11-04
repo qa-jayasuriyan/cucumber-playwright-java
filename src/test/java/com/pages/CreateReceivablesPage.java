@@ -36,7 +36,7 @@ public class CreateReceivablesPage {
 
         // Dates
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Invoice Date *")).click();
-        page.getByTitle("-10-01").click();
+        page.getByTitle("-11-01").click();
 
         page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Purpose Code question-circle *")).click();
         page.getByText("P0103 - Advance receipts").click();
