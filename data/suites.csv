@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","47990","User creates a new receivable successfully","","2025-10-31","passed","2025-10-31","","Create Receivable","User creates a new receivable successfully",""
-"","56072","User creates and claims a receivable successfully","","2025-10-31","passed","2025-10-31","","Create and Claim Receivable","User creates and claims a receivable successfully",""
-"","18281","Login to dashboard with valid OTP","","2025-10-31","passed","2025-10-31","","Dashboard login","Login to dashboard with valid OTP",""
+"","42314","Verify user can create invoice successfully","","2025-11-04","passed","2025-11-04","","Invoice Creation","Verify user can create invoice successfully",""
+"","47604","User creates a new receivable successfully","","2025-11-04","passed","2025-11-04","","Create Receivable","User creates a new receivable successfully",""
+"","18250","Login to dashboard with valid OTP","","2025-11-04","passed","2025-11-04","","Dashboard login","Login to dashboard with valid OTP",""
+"","56780","User creates and claims a receivable successfully","","2025-11-04","passed","2025-11-04","","Create and Claim Receivable","User creates and claims a receivable successfully",""
