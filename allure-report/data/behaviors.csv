@@ -1,4 +1,5 @@
 "BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Invoice Creation","1","0","Verify user can create invoice successfully","0"
 "0","","0","Create Receivable","1","0","User creates a new receivable successfully","0"
-"0","","0","Create and Claim Receivable","1","0","User creates and claims a receivable successfully","0"
 "0","","0","Dashboard login","1","0","Login to dashboard with valid OTP","0"
+"0","","0","Create and Claim Receivable","1","0","User creates and claims a receivable successfully","0"
