@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","40637","Verify user can create a new receive payment with file upload","","2025-11-19","passed","2025-11-19","","Receive Payments","Verify user can create a new receive payment with file upload",""
+"","42432","Verify user can create invoice successfully","","2025-11-19","passed","2025-11-19","","Invoice Creation","Verify user can create invoice successfully",""
+"","61033","User creates and claims a receivable successfully","","2025-11-19","passed","2025-11-19","","Create and Claim Receivable","User creates and claims a receivable successfully",""
+"","18979","Login to dashboard with valid OTP","","2025-11-19","passed","2025-11-19","","Dashboard login","Login to dashboard with valid OTP",""
+"","48520","User creates a new receivable successfully","","2025-11-19","passed","2025-11-19","","Create Receivable","User creates a new receivable successfully",""
