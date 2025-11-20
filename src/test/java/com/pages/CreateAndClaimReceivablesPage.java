@@ -18,7 +18,7 @@ public class CreateAndClaimReceivablesPage {
      */
     public String createAndClaimReceivable() {
         page.waitForTimeout(2000);
-        System.out.println("🔹 Starting Receivable Creation...");
+        System.out.println("Starting Receivable Creation...");
 
         // Click "Create Invoice"
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("form Create Invoice")).click();
@@ -34,7 +34,7 @@ public class CreateAndClaimReceivablesPage {
         // Generate Invoice Number
         String invoiceNumber = InvoiceNumberManager.getNextInvoiceNumber();
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Invoice ID *")).fill(invoiceNumber);
-        System.out.println("🧾 Invoice Generated: " + invoiceNumber);
+        System.out.println("Invoice Generated: " + invoiceNumber);
 
         // Select Currency
         page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Currency of the Invoice *")).click();
@@ -74,12 +74,12 @@ public class CreateAndClaimReceivablesPage {
         Locator confirmBtn = page.locator("div.ant-modal-content button:has-text('CREATE RECEIVABLE')").first();
         confirmBtn.waitFor(new Locator.WaitForOptions().setTimeout(10000));
         confirmBtn.click();
-        System.out.println("✅ Clicked CREATE RECEIVABLE successfully.");
+        System.out.println("Clicked CREATE RECEIVABLE successfully.");
 
         // Wait for success toast
         Locator toast = page.locator("div[role='alert']");
         toast.waitFor(new Locator.WaitForOptions().setTimeout(30000));
-        System.out.println("✅ Receivable Created Toast: " + toast.innerText());
+        System.out.println("Receivable Created Toast: " + toast.innerText());
 
         // Now claim same invoice
         claimReceivable(invoiceNumber);
@@ -91,7 +91,7 @@ public class CreateAndClaimReceivablesPage {
      * Claim the created receivable.
      */
     private void claimReceivable(String invoiceNumber) {
-        System.out.println("🔹 Starting Claim for invoice: " + invoiceNumber);
+        System.out.println("Starting Claim for invoice: " + invoiceNumber);
 
         page.waitForTimeout(2000);
         page.locator("span:has-text('Dashboard')").first().click();
@@ -118,6 +118,6 @@ public class CreateAndClaimReceivablesPage {
         // Verify Claim Success
         Locator toast = page.locator("div[role='alert']");
         toast.waitFor(new Locator.WaitForOptions().setTimeout(20000));
-        System.out.println("🎉 Claim Success Toast: " + toast.innerText());
+        System.out.println("Claim Success Toast: " + toast.innerText());
     }
 }

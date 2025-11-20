@@ -15,6 +15,6 @@ public class CreateAndClaimReceivableSteps {
 
     @Then("Receivable should be created and claimed successfully")
     public void receivable_should_be_created_and_claimed_successfully() {
-        System.out.println("✅ Full create and claim flow completed successfully!");
+        System.out.println("Full create and claim flow completed successfully!");
     }
 }

@@ -9,14 +9,14 @@ public class InvoiceCreationPage {
 
     private final Page page;
 
-    // ✅ Same pattern as your other working pages
+    //  Same pattern as your other working pages
     public InvoiceCreationPage() {
         this.page = PlaywrightFactory.getPage();
     }
 
     public void createInvoice() {
         page.waitForTimeout(2000);
-        System.out.println("🧾 Starting Invoice Creation Flow...");
+        System.out.println(" Starting Invoice Creation Flow...");
 
         // --- same flow as before (form open, select client, currency, items, submit) ---
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("form Create Invoice")).click();
@@ -30,7 +30,7 @@ public class InvoiceCreationPage {
         String invoiceNumber = InvoiceNumberManager.getNextInvoiceNumber();
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Invoice ID *"))
             .fill(invoiceNumber);
-        System.out.println("🧾 Invoice Number: " + invoiceNumber);
+        System.out.println(" Invoice Number: " + invoiceNumber);
 
         page.locator(".ant-select-selector").nth(1).click();
         page.waitForSelector(".ant-select-item-option-content:has-text('USD')");
@@ -59,16 +59,16 @@ public class InvoiceCreationPage {
             .fill("Net 10 Days");
 
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Submit")).click();
-        System.out.println("🚀 Submitted Invoice Successfully.");
+        System.out.println(" Submitted Invoice Successfully.");
     }
 
     public void verifyInvoiceCreation() {
         Locator toast = page.locator("div[role='alert']");
         toast.waitFor(new Locator.WaitForOptions().setTimeout(30000));
         String message = toast.innerText();
-        System.out.println("✅ Invoice Success Toast: " + message);
+        System.out.println(" Invoice Success Toast: " + message);
 
         page.locator("span").filter(new Locator.FilterOptions().setHasText("Dashboard")).first().click();
-        System.out.println("🏠 Returned to Dashboard.");
+        System.out.println(" Returned to Dashboard.");
     }
 }

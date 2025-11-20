@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.TestRunner" time="168.502" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.TestRunner" time="48.808" tests="1" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="cucumber.features" value="src/test/resources/features/ReceivePayments.feature"/>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/test-classes:/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/classes:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/playwright/1.46.0/playwright-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/jayasuriyans/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver/1.46.0/driver-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver-bundle/1.46.0/driver-bundle-1.46.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/jayasuriyans/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/jayasuriyans/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayasuriyans/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.30.0/allure-cucumber7-jvm-2.30.0.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
@@ -12,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251104120250758_3.jar /Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire 2025-11-04T12-02-50_652-jvmRun1 surefire-20251104120250758_1tmp surefire_0-20251104120250758_2tmp"/>
+    <property name="sun.java.command" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251119174249135_3.jar /Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire 2025-11-19T17-42-49_090-jvmRun1 surefire-20251119174249135_1tmp surefire_0-20251119174249135_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/test-classes:/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/classes:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/playwright/1.46.0/playwright-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/jayasuriyans/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver/1.46.0/driver-1.46.0.jar:/Users/jayasuriyans/.m2/repository/com/microsoft/playwright/driver-bundle/1.46.0/driver-bundle-1.46.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/jayasuriyans/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jayasuriyans/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/jayasuriyans/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayasuriyans/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.30.0/allure-cucumber7-jvm-2.30.0.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jayasuriyans/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/jayasuriyans/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,12 +28,12 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251104120250758_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jayasuriyans/Downloads/cucumber_playwright_java_project/target/surefire/surefirebooter-20251119174249135_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+0"/>
     <property name="user.name" value="jayasuriyans"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="26.0.1"/>
+    <property name="os.version" value="26.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -53,79 +54,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="User creates and claims a receivable successfully" classname="Create and Claim Receivable" time="59.963">
+  <testcase name="Verify user can create a new receive payment with file upload" classname="Receive Payments" time="40.7">
     <system-out><![CDATA[
-Scenario: User creates and claims a receivable successfully  # src/test/resources/features/CreateAndClaimReceivable.feature:3
-🚀 [HOOK] Launching Playwright before scenario...
-Found 2 Dashboard elements.
- Dashboard visible at index 0
-  Given User is logged into the dashboard                    # com.test.CreateReceivablesteps.user_is_logged_into_the_dashboard()
-🔹 Starting Receivable Creation...
-🧾 Invoice Generated: 811717
-✅ Clicked CREATE RECEIVABLE successfully.
-✅ Receivable Created Toast: Created Invoice successfully!
-🔹 Starting Claim for invoice: 811717
-✅ Claim submitted for invoice: 811717
-🎉 Claim Success Toast: Reconcile successful!
-  When User creates and claims a receivable                  # com.test.CreateAndClaimReceivableSteps.user_creates_and_claims_a_receivable()
-✅ Full create and claim flow completed successfully!
-  Then Receivable should be created and claimed successfully # com.test.CreateAndClaimReceivableSteps.receivable_should_be_created_and_claimed_successfully()
+Scenario: Verify user can create a new receive payment with file upload # src/test/resources/features/ReceivePayments.feature:3
+[HOOK] Launching Playwright before scenario...
+  Given User is logged into the dashboard for receive payments          # com.test.ReceivePaymentsSteps.user_is_logged_into_the_dashboard_for_receive_payments()
+💰 Starting Receive Payment creation...
+📎 Uploaded Invoice File: /Users/jayasuriyans/Downloads/AutomationInvoice.pdf
+🚀 Receive Payment submitted.
+  When User creates a new receive payment with invoice file             # com.test.ReceivePaymentsSteps.user_creates_a_new_receive_payment_with_invoice_file()
+✅ Receive Payment Success: 
+  Then Receive payment should be created successfully                   # com.test.ReceivePaymentsSteps.receive_payment_should_be_created_successfully()
 🧹 [HOOK] Closing Playwright after scenario...
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="User creates a new receivable successfully" classname="Create Receivable" time="47.612">
-    <system-out><![CDATA[
-Scenario: User creates a new receivable successfully # src/test/resources/features/CreateReceivable.feature:3
-🚀 [HOOK] Launching Playwright before scenario...
-Found 2 Dashboard elements.
- Dashboard visible at index 0
-  Given User is logged into the dashboard            # com.test.CreateReceivablesteps.user_is_logged_into_the_dashboard()
-Invoice Generated: 811718
-🟡 Clicked Create Receivable main button
-✅ Clicked CREATE RECEIVABLE in popup successfully.
-Invoice number created successfully
-  When User creates a new receivable                 # com.test.CreateReceivablesteps.user_creates_a_new_receivable()
-🧾 Waiting for success toast...
-✅ Success toast visible: Receivable created successfully!
-  Then Receivable should be created successfully     # com.test.CreateReceivablesteps.receivable_should_be_created_successfully()
-🧹 [HOOK] Closing Playwright after scenario...
-]]></system-out>
-  </testcase>
-  <testcase name="Login to dashboard with valid OTP" classname="Dashboard login" time="18.274">
-    <system-out><![CDATA[
-Scenario: Login to dashboard with valid OTP # src/test/resources/features/DashboardLogin.feature:3
-🚀 [HOOK] Launching Playwright before scenario...
-  Given User is on login page               # com.test.DashboardLoginSteps.user_is_on_login_page()
-  When User enters email and submits OTP    # com.test.DashboardLoginSteps.user_enters_email_and_submits_otp()
-Found 2 Dashboard elements.
- Dashboard visible at index 0
-  Then User should land on dashboard        # com.test.DashboardLoginSteps.user_should_land_on_dashboard()
-🧹 [HOOK] Closing Playwright after scenario...
-]]></system-out>
-  </testcase>
-  <testcase name="Verify user can create invoice successfully" classname="Invoice Creation" time="42.325">
-    <system-out><![CDATA[
-Scenario: Verify user can create invoice successfully          # src/test/resources/features/InvoiceCreation.feature:2
-🚀 [HOOK] Launching Playwright before scenario...
-🚀 Logging into KarbonFX dashboard...
-✅ Login successful, dashboard loaded.
-  Given User is logged into the dashboard for invoice creation # com.test.InvoiceCreationSteps.user_is_logged_into_the_dashboard_for_invoice_creation()
-🧾 Starting new invoice creation...
-🧾 Starting Invoice Creation Flow...
-🧾 Invoice Number: 811719
-🚀 Submitted Invoice Successfully.
-✅ Invoice creation flow completed.
-  When User creates a new invoice                              # com.test.InvoiceCreationSteps.user_creates_a_new_invoice()
-🔍 Verifying invoice creation...
-✅ Invoice Success Toast: Created Invoice successfully!
-🏠 Returned to Dashboard.
-🎉 Invoice verified successfully!
-  Then Invoice should be created successfully                  # com.test.InvoiceCreationSteps.invoice_should_be_created_successfully()
-🧹 [HOOK] Closing Playwright after scenario...
-]]></system-out>
   </testcase>
 </testsuite>

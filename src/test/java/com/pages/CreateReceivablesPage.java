@@ -58,7 +58,7 @@ public class CreateReceivablesPage {
             .fill("check create receivables");
 
         // Click main "Create Receivable" button
-        System.out.println("🟡 Clicked Create Receivable main button");
+        System.out.println(" Clicked Create Receivable main button");
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Create Receivable").setExact(true)).click();
 
         // Wait for popup modal to appear
@@ -72,18 +72,18 @@ public class CreateReceivablesPage {
 
         popupButton.waitFor(new Locator.WaitForOptions().setTimeout(8000));
         popupButton.click();
-        System.out.println("✅ Clicked CREATE RECEIVABLE in popup successfully.");
+        System.out.println(" Clicked CREATE RECEIVABLE in popup successfully.");
 
         // Small wait for backend processing
         page.waitForTimeout(3000);
     }
 
     public boolean verifyReceivable() {
-        System.out.println("🧾 Waiting for success toast...");
+        System.out.println(" Waiting for success toast...");
         Locator toast = page.locator("div[role='alert']");
         toast.waitFor(new Locator.WaitForOptions().setTimeout(30000));
         String message = toast.innerText();
-        System.out.println("✅ Success toast visible: " + message);
+        System.out.println(" Success toast visible: " + message);
         page.waitForTimeout(1000);
         return true;
     }

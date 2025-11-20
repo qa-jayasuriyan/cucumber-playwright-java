@@ -10,15 +10,17 @@ import io.cucumber.junit.CucumberOptions;
         "src/test/resources/features/DashboardLogin.feature",
         "src/test/resources/features/InvoiceCreation.feature",
         "src/test/resources/features/CreateReceivable.feature",
-        "src/test/resources/features/CreateAndClaimReceivable.feature"
+        "src/test/resources/features/CreateAndClaimReceivable.feature",
+        "src/test/resources/features/ReceivePayments.feature"
     },
-    glue = {"com.test", "com.pages", "com.hooks"},
+    glue = {"com.test", "com.hooks"},
     plugin = {
         "pretty",
         "html:target/cucumber-reports/cucumber.html",
         "json:target/cucumber-reports/cucumber.json",
         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
     },
-    monochrome = true
+    monochrome = true,
+    publish = true // optional: lets you view report on cucumber cloud
 )
 public class TestRunner {}

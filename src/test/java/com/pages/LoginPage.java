@@ -17,7 +17,7 @@ public class LoginPage {
     }
 
     public void navigateToLogin() {
-        page.navigate("https://app.dev.karbonfx.com/login/"); // ✅ Use your actual app URL
+        page.navigate("https://app.dev.karbonfx.com/login/"); //  Use your actual app URL
     }
 
     public void loginWithStaticOTP() {
@@ -35,7 +35,7 @@ public class LoginPage {
         page.locator("input:nth-child(6)").fill("0");
 
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Verify OTP")).click();
-        page.waitForTimeout(2000); // 🕐 Wait 2 seconds for dashboard to load
+        page.waitForTimeout(2000); //  Wait 2 seconds for dashboard to load
 
     }
     public boolean verifyDashboard() {

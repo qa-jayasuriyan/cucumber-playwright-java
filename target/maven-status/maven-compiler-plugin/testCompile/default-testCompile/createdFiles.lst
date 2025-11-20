@@ -8,5 +8,7 @@ com/test/TestRunner.class
 com/hooks/Hooks.class
 com/test/CreateReceivablesteps.class
 com/utils/PlaywrightFactory.class
+com/pages/ReceivePaymentsPage.class
+com/test/ReceivePaymentsSteps.class
 com/pages/LoginPage.class
 com/pages/InvoiceCreationPage.class

@@ -10,7 +10,7 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        System.out.println("🚀 [HOOK] Launching Playwright before scenario...");
+        System.out.println("[HOOK] Launching Playwright before scenario...");
         PlaywrightFactory.initBrowser(false);
     }
 
@@ -19,7 +19,7 @@ public class Hooks {
         Page page = PlaywrightFactory.getPage();
 
         if (scenario.isFailed()) {
-            System.out.println("❌ Scenario failed: capturing screenshot...");
+            System.out.println(" Scenario failed: capturing screenshot...");
             byte[] screenshot = page.screenshot(new Page.ScreenshotOptions().setFullPage(true));
             Allure.addAttachment("Failure Screenshot", new ByteArrayInputStream(screenshot));
         }
